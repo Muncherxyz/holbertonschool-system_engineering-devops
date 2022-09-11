@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# lol
+number=10
+while (( number > 0))
+do
+ echo "Best School"
+ (( number -- ))
+if (( number = 9 )); then
+echo "Hi"
+fi
+done
