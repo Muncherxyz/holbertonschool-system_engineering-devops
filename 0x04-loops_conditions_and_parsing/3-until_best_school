@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # yooo
-number=1
-until [ $number -gt 10 ]
+number=0
+until [ $number -gt 9 ]
 do
- echo Best School
+    echo Best School
+    ((x++))
 done

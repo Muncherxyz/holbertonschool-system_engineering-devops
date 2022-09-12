@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# no.
+
+while [ $n -le 10 ]
+do
+   
+    done
