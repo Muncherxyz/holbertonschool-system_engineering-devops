@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# l
+x=1
+while [ $x -le 20 ]
+do
+echo "$x"
+
+case $x in
+15)
+echo "FizzBuzz"
+;;
+
+3 | 6 | 9 | 12 | 18)
+echo "Fizz"
+;;
+
+5 | 10 | 15 | 20)
+echo "Buzz"
+;;
+esac
+((x++))
+done
