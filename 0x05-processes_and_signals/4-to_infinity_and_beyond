@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# inf until cancelled
+while :
+do
+echo "To infinity and beyond"
+done
