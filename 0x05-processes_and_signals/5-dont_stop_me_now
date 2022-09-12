@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # kill the infinite loop
-kill -9 6758
+kill SIGKILL 6758
