@@ -7,7 +7,7 @@ echo "Best School"
 [$number ++]
 if [$number = 4]; then
 echo "bad luck"
-if [$number = 8]; then
+elif [$number = 8]; then
 echo "good luck"
 fi
 done
