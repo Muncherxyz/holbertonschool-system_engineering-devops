@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-#
-trap echo "I am invincible!!!" 15
+# yes
+trap 'echo "I am invincible!!!"' 15
 while :
 do
 echo "To infinity and beyond"
