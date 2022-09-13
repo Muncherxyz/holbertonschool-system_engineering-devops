@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # ..
-pkill -f 7-highlander
+trap 'echo"To infinity and beyond"' 15 
